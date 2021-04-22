@@ -1,0 +1,160 @@
+@media (min-width: 320px) { 
+    .services {
+        padding: 35px 20px 55px;
+        background-color: #e4fdf9;
+        &__title {
+            @include title;
+            font-size: 28px;  
+            &-descr {
+                @include title-descr;
+                margin-top: 20px; 
+            }
+        }
+        &__cards {
+            margin-top: 30px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        &__card {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            margin-top: 31px;
+            width: 100%;
+            padding: 58px 50px 50px;
+            background-color: #ffffff;
+        }
+        
+        &__icon {
+            img {
+                display: block;
+                margin: 0 auto;
+            }
+            &-title {
+                margin-top: 38px;
+                font-size: 20px;
+                font-weight: 600;
+                line-height: 1.1;
+                letter-spacing: 1px;
+                text-align: center;
+                color: #000;
+            }
+            &-descr {
+                margin-top: 26px;
+                font-size: 15px;
+                font-weight: normal;
+                line-height: 1.67;
+                letter-spacing: 0.75px;
+                text-align: center;
+                color: #000;
+            }
+        }
+    }
+}
+@media (min-width: 576px) {
+    .services {
+        &__card {
+            width: calc(50% - 20px);
+        }
+    }
+}
+
+@media (min-width: 768px) {
+    .services {
+        padding: 55px 20px;
+    }
+}
+
+@media (min-width: 991px) {
+    .services {
+        padding: 82px 20px;
+        &__title {
+            @include title;
+            &-descr {
+                @include title-descr;
+            }
+        }
+        &__cards {
+            justify-content: center;
+        }
+        &__card {
+            width: calc(300px - 40px);
+            margin:20px;
+            &:hover {
+                background-color: $main-color;
+                box-shadow: 0px 10px 20px 0 rgba(0, 0, 0, 0.35);
+                .services__icon-title,.services__icon-descr  {
+                    color: #fff;
+                }
+            }
+        }
+    }
+}
+
+
+// .services {
+//     padding: 173px 20px 126px;
+//     background-color: #e4fdf9;
+//     &__wrapper {
+
+//     }
+//     &__title {
+//         @include title; 
+//         &-descr {
+//            @include title-descr; 
+//         }
+//     }
+//     &__cards {
+//         margin-top: 81px;
+//         display: flex;
+//         flex-wrap: wrap;
+//         justify-content: space-between;
+//     }
+//     &__card {
+//         display: flex;
+//         flex-direction: column;
+//         justify-content: center;
+//         margin-top: 31px;
+//         width: 370px;
+//         padding: 58px 50px 50px;
+//         background-color: #ffffff;
+//         &:hover {
+//             background-color: #00897b;
+//             box-shadow: 0px 10px 20px 0 rgba(0, 0, 0, 0.35);
+//             .services__icon-title,.services__icon-descr  {
+//                 color: #fff;
+//             }
+//             // .services__icon {
+//             //     img {
+//             //         background-color: white;
+//             //     }
+//             // }
+//         }
+//     }
+    
+//     &__icon {
+//         img {
+//             display: block;
+//             margin: 0 auto;
+//         }
+//         &-title {
+//             margin-top: 38px;
+//             font-size: 20px;
+//             font-weight: 600;
+//             line-height: 1.1;
+//             letter-spacing: 1px;
+//             text-align: center;
+//             color: #000;
+//         }
+//         &-descr {
+//             margin-top: 26px;
+//             font-size: 15px;
+//             font-weight: normal;
+//             line-height: 1.67;
+//             letter-spacing: 0.75px;
+//             text-align: center;
+//             color: #000;
+//         }
+//     }
+// }

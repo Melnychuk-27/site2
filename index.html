@@ -1,0 +1,975 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Web development</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+<body>
+
+    <header class="header">
+    <div class="container">
+        <div class="header__inner">
+            <div class="header__logo">
+                Your Logo
+            </div>
+            <div class="header__menu">
+                <div class="menu__icon">
+                    <span></span>
+                </div>
+                <div class="menu__body">
+                    <ul class="menu">
+                            <li class="menu__item"><a href="#promo" class="menu__link">Home</a></li>
+                            <li><a href="#about" class="menu__link">About</a></li>
+                            <li><a href="#services" class="menu__link">Servicing</a></li>
+                            <li><a href="#team" class="menu__link">Portfolio</a></li>
+                            <li><a href="#blog" class="menu__link">Blog</a></li>
+                            <li><a href="#contact" class="menu__link">Contact us</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+    <section class="promo" id="promo">
+    <div class="swiper-container">
+  <div class="swiper-wrapper">
+      <div class="swiper-slide"><img src="img/header/header_bg.jpg" alt="header_bg"></div>
+      <div class="swiper-slide"><img src="img/blog/seo.jpg" alt="seo"></div>
+      <div class="swiper-slide"><img src="img/blog/macbook.jpg" alt="macbook"></div>
+  </div>
+  <!-- Add Pagination -->
+  <div class="swiper-pagination"></div>
+</div>
+    <div class="container">
+        <div class="promo__wrapper">
+            <h1 class="promo__title">
+                Web development project
+            </h1>
+            <div class="promo__sub-title">
+                Very suitable to support all web development projects
+            </div>
+            <div class="promo__buttons">
+                <a href="#services"><div class="btn btn__promo-1" >OUR SERVICES</div></a>
+                <a href="#contact"><div class="btn btn__promo-2" >HIRE IS NOW</div></a>
+            </div>
+        </div>
+        <img src="icons/promo/arrow-bottom.png" alt="arrow-bottom" class="promo__arrow">
+    </div>
+</section>
+    <section class="about" id="about">
+    <div class="container">
+        <div class="about__wrapper">
+            <h2 class="about__title">About Us</h2>
+            <div class="container-text">
+                <div class="about__title-descr">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                </div>
+            </div>
+            <div class="about__inner">
+                <div class="about__item">
+                    <div class="about__icon">
+                        <img src="icons/about/internet.png" alt="internet">
+                    </div>
+                    <div class="about__icon-title">
+                        Awesome Icons
+                    </div>
+                    <div class="about__icon-descr">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                    </div>
+                </div>
+                    <div class="about__item">
+                        <div class="about__icon">
+                            <img src="icons/about/transfer.png" alt="transfer">
+                        </div>
+                        <div class="about__icon-title">
+                            One Page
+                        </div>
+                        <div class="about__icon-descr">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                        </div>
+                    </div>
+                    <div class="about__item">
+                        <div class="about__icon">
+                            <img src="icons/about/head.png" alt="head">
+                        </div>
+                        <div class="about__icon-title">
+                            Fully Responsive
+                        </div>
+                        <div class="about__icon-descr">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+</section>
+    <section class="services" id="services">
+    <div class="container">
+        <div class="services__wrapper">
+            <h2 class="services__title">Our Services</h2>
+            <div class="container-text">
+                <div class="services__title-descr">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                </div>
+            </div>
+            <div class="services__cards">
+                <div class="services__card">
+                    <div class="services__icon">
+                        <img src="icons/services/smartphone.png" alt="smartphone">
+                    </div>
+                    <div class="services__icon-title">
+                        Research
+                    </div>
+                    <div class="services__icon-descr">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                    </div>
+                    <button class="btn btn__services">READ MORE</button>
+                </div>
+                <div class="services__card">
+                    <div class="services__icon">
+                        <img src="icons/services/smartphone.png" alt="smartphone">
+                    </div>
+                    <div class="services__icon-title">
+                        Portfolio
+                    </div>
+                    <div class="services__icon-descr">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                    </div>
+                    <button class="btn btn__services">READ MORE</button>
+                </div>
+                <div class="services__card">
+                    <div class="services__icon">
+                        <img src="icons/services/smartphone.png" alt="smartphone">
+                    </div>
+                    <div class="services__icon-title">
+                        Support
+                    </div>
+                    <div class="services__icon-descr">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                    </div>
+                    <button class="btn btn__services">READ MORE</button>
+                </div>
+                <div class="services__card">
+                    <div class="services__icon">
+                        <img src="icons/services/smartphone.png" alt="smartphone">
+                    </div>
+                    <div class="services__icon-title">
+                        Documentation
+                    </div>
+                    <div class="services__icon-descr">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                    </div>
+                    <button class="btn btn__services">READ MORE</button>
+                </div>
+                <div class="services__card">
+                    <div class="services__icon">
+                        <img src="icons/services/smartphone.png" alt="smartphone">
+                    </div>
+                    <div class="services__icon-title">
+                        Development
+                    </div>
+                    <div class="services__icon-descr">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                    </div>
+                    <button class="btn btn__services">READ MORE</button>
+                </div>
+                <div class="services__card">
+                    <div class="services__icon">
+                        <img src="icons/services/smartphone.png" alt="smartphone">
+                    </div>
+                    <div class="services__icon-title">
+                        Design
+                    </div>
+                    <div class="services__icon-descr">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                    </div>
+                    <button class="btn btn__services">READ MORE</button>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</section>
+    <section class="works" id="works">
+    <div class="container">
+        <div class="works__wrapper">
+            <h2 class="works__title">Latest Works</h2>
+            <div class="container-text">
+                <div class="works__title-descr">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                </div>
+            </div>
+            <div class="works__buttons">
+                <button class="btn btn__works-1 btn-active" data-type="ALL">ALL</button>
+                <button class="btn btn__works-1" data-type="WEB">WEB DESIGN</button>
+                <button class="btn btn__works-1" data-type="UI/UX">UI/UX DESIGN</button>
+                <button class="btn btn__works-1" data-type="MOCKUPS">MOCKUPS</button>
+            </div>
+            <div class="works__cards">
+                <div class="works__card UI/UX"  >
+                    <div class="works__img ">
+                        <img src="img/works/watch.jpg" alt="watch">
+                    </div>
+                </div>
+                <div class="works__card WEB" >
+                    <div class="works__img " >
+                        <img src="img/works/pake.jpg" alt="pake">
+                    </div>
+                </div>
+                <div class="works__card MOCKUPS">
+                    <div class="works__img">
+                        <img src="img/works/shorts.jpg" alt="shorts">
+                    </div>
+                </div>
+                <div class="works__card UI/UX" >
+                    <div class="works__img" >
+                        <img src="img/works/capacity.jpg" alt="capacity">
+                    </div>
+                </div>
+                <div class="works__card WEB">
+                    <div class="works__img" >
+                        <img src="img/works/bottle.jpg" alt="bottle">
+                    </div>
+                </div>
+                <div class="works__card MOCKUPS" >
+                    <div class="works__img" >
+                        <img src="img/works/bag.jpg" alt="bag">
+                    </div>
+                </div>
+                <div class="works__card UI/UX"  >
+                    <div class="works__img ">
+                        <img src="img/works/watch.jpg" alt="watch">
+                    </div>
+                </div>
+                <div class="works__card WEB" >
+                    <div class="works__img " >
+                        <img src="img/works/pake.jpg" alt="pake">
+                    </div>
+                </div>
+                <div class="works__card MOCKUPS">
+                    <div class="works__img">
+                        <img src="img/works/shorts.jpg" alt="shorts">
+                    </div>
+                </div>
+                <div class="works__card UI/UX" >
+                    <div class="works__img" >
+                        <img src="img/works/capacity.jpg" alt="capacity">
+                    </div>
+                </div>
+                <div class="works__card WEB">
+                    <div class="works__img" >
+                        <img src="img/works/bottle.jpg" alt="bottle">
+                    </div>
+                </div>
+                <div class="works__card MOCKUPS" >
+                    <div class="works__img" >
+                        <img src="img/works/bag.jpg" alt="bag">
+                    </div>
+                </div>
+                <div class="works__card UI/UX"  >
+                    <div class="works__img ">
+                        <img src="img/works/watch.jpg" alt="watch">
+                    </div>
+                </div>
+                <div class="works__card WEB" >
+                    <div class="works__img " >
+                        <img src="img/works/pake.jpg" alt="pake">
+                    </div>
+                </div>
+                <div class="works__card MOCKUPS">
+                    <div class="works__img">
+                        <img src="img/works/shorts.jpg" alt="shorts">
+                    </div>
+                </div>
+                <div class="works__card UI/UX" >
+                    <div class="works__img" >
+                        <img src="img/works/capacity.jpg" alt="capacity">
+                    </div>
+                </div>
+                <div class="works__card WEB">
+                    <div class="works__img" >
+                        <img src="img/works/bottle.jpg" alt="bottle">
+                    </div>
+                </div>
+                <div class="works__card MOCKUPS" >
+                    <div class="works__img" >
+                        <img src="img/works/bag.jpg" alt="bag">
+                    </div>
+                </div>
+                <div class="works__card UI/UX"  >
+                    <div class="works__img ">
+                        <img src="img/works/watch.jpg" alt="watch">
+                    </div>
+                </div>
+                <div class="works__card WEB" >
+                    <div class="works__img " >
+                        <img src="img/works/pake.jpg" alt="pake">
+                    </div>
+                </div>
+                <div class="works__card MOCKUPS">
+                    <div class="works__img">
+                        <img src="img/works/shorts.jpg" alt="shorts">
+                    </div>
+                </div>
+                <div class="works__card UI/UX" >
+                    <div class="works__img" >
+                        <img src="img/works/capacity.jpg" alt="capacity">
+                    </div>
+                </div>
+                <div class="works__card WEB">
+                    <div class="works__img" >
+                        <img src="img/works/bottle.jpg" alt="bottle">
+                    </div>
+                </div>
+                <div class="works__card MOCKUPS" >
+                    <div class="works__img" >
+                        <img src="img/works/bag.jpg" alt="bag">
+                    </div>
+                </div>
+                
+        </div>
+        <button class="btn btn__works-bottom">VIEW ALL</button>
+    </div>
+</div>
+</section>
+    <section class="price" id="price">
+    <div class="container">
+        <div class="price__wrapper">
+            <h2 class="price__title">Pricing Plan</h2>
+            <div class="container-text">
+                <div class="price__title-descr">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                </div>
+            </div>
+            <div class="price__cards">
+                <div class="price__card">
+                    <div class="price__card-top">
+                        <div class="price__card-title">
+                            Free Trail
+                        </div>
+                        <div class="price__card-subtitle">
+                            <span class="price__card-subtitle-doll"><sup>$</sup>00</span>per month
+                        </div>
+                    </div>
+                    <div class="price__card-body">
+                        <span>30 Free Trail</span>
+                        <span>5 Free Projects</span>
+                        <span>PHP 5 Enabled</span>
+                        <span>24/7 Suports</span>
+                        <div class="View-more">
+                            <span>Free Trail</span>
+                            <span>Free Projects</span>
+                            <span>Enabled</span>
+                            <span>Suports</span>
+                        </div>
+                    </div>
+                    <div class="price__card-bottom">
+                        <button class="btn btn__price">VIEW ALL</button>
+                    </div>
+                </div>
+                <div class="price__card">
+                    <div class="price__card-top">
+                        <div class="price__card-title">
+                            Basic
+                        </div>
+                        <div class="price__card-subtitle">
+                            <span class="price__card-subtitle-doll"><sup>$</sup>50</span>per month
+                        </div>
+                    </div>
+                    <div class="price__card-body">
+                        <span>30 Free Trail</span>
+                        <span>5 Free Projects</span>
+                        <span>PHP 5 Enabled</span>
+                        <span>24/7 Suports</span>
+                        <div class="View-more">
+                            <span>Free</span>
+                            <span>Free</span>
+                            <span>Enabled</span>
+                            <span>Enabled</span>
+                        </div>
+                    </div>
+                    <div class="price__card-bottom">
+                        <button class="btn btn__price">VIEW ALL</button>
+                    </div>
+                </div>
+                <div class="price__card">
+                    <div class="price__card-top">
+                        <div class="price__card-title">
+                            Ultimates
+                        </div>
+                        <div class="price__card-subtitle">
+                            <span class="price__card-subtitle-doll"><sup>$</sup>99</span>per month
+                        </div>
+                    </div>
+                    <div class="price__card-body">
+                        <span>30 Free Trail</span>
+                        <span>5 Free Projects</span>
+                        <span>PHP 5 Enabled</span>
+                        <span>24/7 Suports</span>
+                        <div class="View-more">
+                            <span>Free</span>
+                            <span>Projects</span>
+                            <span>Enabled</span>
+                            <span>Suports</span>
+                        </div>
+                    </div>
+                    <div class="price__card-bottom">
+                        <button class="btn btn__price">VIEW ALL</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+    <section class="team" id="team">
+    <div class="container">
+        <div class="team__wrapper">
+            <h2 class="team__title">Our Team Member</h2>
+            <div class="container-text">
+                <div class="team__title-descr">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                </div>
+            </div>
+            <div class="team__cards">
+                <div class="team__card">
+                    <div class="team__img">
+                        <img src="img/people/jonh.jpg" alt="jonh">
+                    </div>
+                    <div class="team__card-title">
+                        John Doe
+                    </div>
+                    <div class="team__card-descr">
+                        General Manager
+                    </div>
+                    <div class="team__card-icons">
+                        <div class="team__card-icon">
+                            <a href="https://www.facebook.com/" target="_blank"><img src="icons/network/facebook.png" alt="facebook"></a>
+                        </div>
+                        <div class="team__card-icon">
+                            <a href="https://twitter.com/?lang=ru" target="_blank"><img src="icons/network/twitter.png" alt="twitter"></a>
+                        </div>
+                        <div class="team__card-icon">
+                            <a href="https://web.telegram.org/" target="_blank"><img src="icons/network/messanger.png" alt="messanger"></a>
+                        </div>
+                        <div class="team__card-icon">
+                            <a href="https://www.ballstreetnetwork.com/" target="_blank"><img src="icons/network/ball.png" alt="ball"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="team__card">
+                    <div class="team__img">
+                        <img src="img/people/alexa.jpg" alt="alexa">
+                    </div>
+                    <div class="team__card-title">
+                        Alexa Biru
+                    </div>
+                    <div class="team__card-descr">
+                        Office Director
+                    </div>
+                    <div class="team__card-icons">
+                        <div class="team__card-icon">
+                            <a href="https://www.facebook.com/" target="_blank"><img src="icons/network/facebook.png" alt="facebook"></a>
+                        </div>
+                        <div class="team__card-icon">
+                            <a href="https://twitter.com/?lang=ru" target="_blank"><img src="icons/network/twitter.png" alt="twitter"></a>
+                        </div>
+                        <div class="team__card-icon">
+                            <a href="https://web.telegram.org/" target="_blank"><img src="icons/network/messanger.png" alt="messanger"></a>
+                        </div>
+                        <div class="team__card-icon">
+                            <a href="https://www.ballstreetnetwork.com/" target="_blank"><img src="icons/network/ball.png" alt="ball"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="team__card">
+                    <div class="team__img">
+                        <img src="img/people/ronobir.jpg" alt="ronobir">
+                    </div>
+                    <div class="team__card-title">
+                        Ronobir sing
+                    </div>
+                    <div class="team__card-descr">
+                        Admin
+                    </div>
+                    <div class="team__card-icons">
+                        <div class="team__card-icon">
+                            <a href="https://www.facebook.com/" target="_blank"><img src="icons/network/facebook.png" alt="facebook"></a>
+                        </div>
+                        <div class="team__card-icon">
+                            <a href="https://twitter.com/?lang=ru" target="_blank"><img src="icons/network/twitter.png" alt="twitter"></a>
+                        </div>
+                        <div class="team__card-icon">
+                            <a href="https://web.telegram.org/" target="_blank"><img src="icons/network/messanger.png" alt="messanger"></a>
+                        </div>
+                        <div class="team__card-icon">
+                            <a href="https://www.ballstreetnetwork.com/" target="_blank"><img src="icons/network/ball.png" alt="ball"></a>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+</section>
+    <section class="blog" id="blog">
+    <div class="container">
+        <div class="blog__wrapper">
+            <h2 class="blog__title">Blog</h2>
+            <div class="container-text">
+                <div class="blog__title-descr">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                </div>
+            </div>
+            <div class="blog__items">
+                <div class=" blog__i">
+                    <div class=" blog__item ">
+                        <div class="blog__img">
+                            <img src="img/blog/seo.jpg" alt="seo">
+                        </div>
+                        <div class="blog__item-body">
+                            <div class="blog__item-title">
+                                <a href="#">SEO Quis Vestibulum</a> 
+                            </div>
+                            <div class="blog__data-file">
+                                <div class="blog__data">
+                                    <img src="icons/blog/calendar.png" alt="calendar">
+                                    14.07.2020
+                                </div>
+                                <div class="blog__file">
+                                    <img src="icons/blog/file.png" alt="file">
+                                    Development
+                                </div>
+                            </div>
+                            <div class="blog__item-descr">
+                                Dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat...
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class=" blog__i">
+                    <div class=" blog__item ">
+                        <div class="blog__img">
+                            <img src="img/blog/macbook.jpg" alt="macbook">
+                        </div>
+                        <div class="blog__item-body">
+                            <div class="blog__item-title">
+                                <a href="#">SEO Quis Vestibulum</a> 
+                            </div>
+                            <div class="blog__data-file">
+                                <div class="blog__data">
+                                    <img src="icons/blog/calendar.png" alt="calendar">
+                                    14.07.2020
+                                </div>
+                                <div class="blog__file">
+                                    <img src="icons/blog/file.png" alt="file">
+                                    Development
+                                </div>
+                            </div>
+                            <div class="blog__item-descr">
+                                Dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat...
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class=" blog__i">
+                    <div class=" blog__item ">
+                        <div class="blog__img">
+                            <img src="img/blog/imac.jpg" alt="imac">
+                        </div>
+                        <div class="blog__item-body">
+                            <div class="blog__item-title">
+                                <a href="#">SEO Quis Vestibulum</a> 
+                            </div>
+                            <div class="blog__data-file">
+                                <div class="blog__data">
+                                    <img src="icons/blog/calendar.png" alt="calendar">
+                                    14.07.2020
+                                </div>
+                                <div class="blog__file">
+                                    <img src="icons/blog/file.png" alt="file">
+                                    Development
+                                </div>
+                            </div>
+                            <div class="blog__item-descr">
+                                Dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat...
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class=" blog__i">
+                    <div class=" blog__item ">
+                        <div class="blog__img">
+                            <img src="img/blog/seo.jpg" alt="seo">
+                        </div>
+                        <div class="blog__item-body">
+                            <div class="blog__item-title">
+                                <a href="#">SEO Quis Vestibulum</a> 
+                            </div>
+                            <div class="blog__data-file">
+                                <div class="blog__data">
+                                    <img src="icons/blog/calendar.png" alt="calendar">
+                                    14.07.2020
+                                </div>
+                                <div class="blog__file">
+                                    <img src="icons/blog/file.png" alt="file">
+                                    Development
+                                </div>
+                            </div>
+                            <div class="blog__item-descr">
+                                Dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat...
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class=" blog__i">
+                    <div class=" blog__item ">
+                        <div class="blog__img">
+                            <img src="img/blog/macbook.jpg" alt="macbook">
+                        </div>
+                        <div class="blog__item-body">
+                            <div class="blog__item-title">
+                                <a href="#">SEO Quis Vestibulum</a> 
+                            </div>
+                            <div class="blog__data-file">
+                                <div class="blog__data">
+                                    <img src="icons/blog/calendar.png" alt="calendar">
+                                    14.07.2020
+                                </div>
+                                <div class="blog__file">
+                                    <img src="icons/blog/file.png" alt="file">
+                                    Development
+                                </div>
+                            </div>
+                            <div class="blog__item-descr">
+                                Dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat...
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class=" blog__i">
+                    <div class=" blog__item ">
+                        <div class="blog__img">
+                            <img src="img/blog/imac.jpg" alt="imac">
+                        </div>
+                        <div class="blog__item-body">
+                            <div class="blog__item-title">
+                                <a href="#">SEO Quis Vestibulum</a> 
+                            </div>
+                            <div class="blog__data-file">
+                                <div class="blog__data">
+                                    <img src="icons/blog/calendar.png" alt="calendar">
+                                    14.07.2020
+                                </div>
+                                <div class="blog__file">
+                                    <img src="icons/blog/file.png" alt="file">
+                                    Development
+                                </div>
+                            </div>
+                            <div class="blog__item-descr">
+                                Dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat...
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class=" blog__i">
+                    <div class=" blog__item ">
+                        <div class="blog__img">
+                            <img src="img/blog/seo.jpg" alt="seo">
+                        </div>
+                        <div class="blog__item-body">
+                            <div class="blog__item-title">
+                                <a href="#">SEO Quis Vestibulum</a> 
+                            </div>
+                            <div class="blog__data-file">
+                                <div class="blog__data">
+                                    <img src="icons/blog/calendar.png" alt="calendar">
+                                    14.07.2020
+                                </div>
+                                <div class="blog__file">
+                                    <img src="icons/blog/file.png" alt="file">
+                                    Development
+                                </div>
+                            </div>
+                            <div class="blog__item-descr">
+                                Dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat...
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class=" blog__i">
+                    <div class=" blog__item ">
+                        <div class="blog__img">
+                            <img src="img/blog/macbook.jpg" alt="macbook">
+                        </div>
+                        <div class="blog__item-body">
+                            <div class="blog__item-title">
+                                <a href="#">SEO Quis Vestibulum</a> 
+                            </div>
+                            <div class="blog__data-file">
+                                <div class="blog__data">
+                                    <img src="icons/blog/calendar.png" alt="calendar">
+                                    14.07.2020
+                                </div>
+                                <div class="blog__file">
+                                    <img src="icons/blog/file.png" alt="file">
+                                    Development
+                                </div>
+                            </div>
+                            <div class="blog__item-descr">
+                                Dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat...
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class=" blog__i">
+                    <div class=" blog__item ">
+                        <div class="blog__img">
+                            <img src="img/blog/imac.jpg" alt="imac">
+                        </div>
+                        <div class="blog__item-body">
+                            <div class="blog__item-title">
+                                <a href="#">SEO Quis Vestibulum</a> 
+                            </div>
+                            <div class="blog__data-file">
+                                <div class="blog__data">
+                                    <img src="icons/blog/calendar.png" alt="calendar">
+                                    14.07.2020
+                                </div>
+                                <div class="blog__file">
+                                    <img src="icons/blog/file.png" alt="file">
+                                    Development
+                                </div>
+                            </div>
+                            <div class="blog__item-descr">
+                                Dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat...
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class=" blog__i">
+                    <div class=" blog__item ">
+                        <div class="blog__img">
+                            <img src="img/blog/seo.jpg" alt="seo">
+                        </div>
+                        <div class="blog__item-body">
+                            <div class="blog__item-title">
+                                <a href="#">SEO Quis Vestibulum</a> 
+                            </div>
+                            <div class="blog__data-file">
+                                <div class="blog__data">
+                                    <img src="icons/blog/calendar.png" alt="calendar">
+                                    14.07.2020
+                                </div>
+                                <div class="blog__file">
+                                    <img src="icons/blog/file.png" alt="file">
+                                    Development
+                                </div>
+                            </div>
+                            <div class="blog__item-descr">
+                                Dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat...
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class=" blog__i">
+                    <div class=" blog__item ">
+                        <div class="blog__img">
+                            <img src="img/blog/macbook.jpg" alt="macbook">
+                        </div>
+                        <div class="blog__item-body">
+                            <div class="blog__item-title">
+                                <a href="#">SEO Quis Vestibulum</a> 
+                            </div>
+                            <div class="blog__data-file">
+                                <div class="blog__data">
+                                    <img src="icons/blog/calendar.png" alt="calendar">
+                                    14.07.2020
+                                </div>
+                                <div class="blog__file">
+                                    <img src="icons/blog/file.png" alt="file">
+                                    Development
+                                </div>
+                            </div>
+                            <div class="blog__item-descr">
+                                Dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat...
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class=" blog__i">
+                    <div class=" blog__item ">
+                        <div class="blog__img">
+                            <img src="img/blog/imac.jpg" alt="imac">
+                        </div>
+                        <div class="blog__item-body">
+                            <div class="blog__item-title">
+                                <a href="#">SEO Quis Vestibulum</a> 
+                            </div>
+                            <div class="blog__data-file">
+                                <div class="blog__data">
+                                    <img src="icons/blog/calendar.png" alt="calendar">
+                                    14.07.2020
+                                </div>
+                                <div class="blog__file">
+                                    <img src="icons/blog/file.png" alt="file">
+                                    Development
+                                </div>
+                            </div>
+                            <div class="blog__item-descr">
+                                Dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat...
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <button class="btn btn__blog-bottom">More view</button>
+        </div>
+    </div>
+</section>
+    <section class="contact" id="contact">
+    <div class="container">
+        <div class="contact__wrapper">
+            <h2 class="contact__title">Contact Us</h2>
+            <div class="container-text">
+                <div class="contact__title-descr">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                </div>
+            </div>
+            <div class="contact__wrapper">
+                <div class="contact__inner">
+                    <div class="contact__item">
+                        <div class="contact__icon">
+                            <img src="icons/contact/marker.png" alt="marker">
+                        </div>
+                        <div class="contact__icon-title">
+                            Nobinagar savar,Dhaka Bangladesh
+                        </div>
+                    </div>
+                    <div class="contact__item">
+                        <div class="contact__icon">
+                            <img src="icons/contact/phone.png" alt="phone">
+                        </div>
+                        <div class="contact__icon-title">
+                            +8801743331996 <br>
+                            +8801928737807
+                        </div>
+                    </div>
+                    <div class="contact__item">
+                        <div class="contact__icon">
+                            <img src="icons/contact/mail.png" alt="mail">
+                        </div>
+                        <div class="contact__icon-title">
+                            quickmasud@gmail.com <br>
+                            quickmasud@yahoo.com
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <form action="#" class="contact__form" name="contact__form">
+                <div class="form__inputs">
+                    <div><input type="text" name="name" placeholder="Your Name..." data-required="name" data-invalid-message="Инвалидное имя, введите например: Вася"></div>
+                    <div><input type="email" name="email" placeholder="Your Email..." data-required="email" data-invalid-message="Инвалидной email, введите коректно email "></div>
+                </div>
+                <div><textarea name="massage" id="#" placeholder="Write Massage" data-required="massage" data-invalid-message="Инвалидной massage, введите коректно massage "></textarea></div>
+                <button class="btn btn__contact">SEND</button>
+            </form>
+        </div>
+    </div>
+</section>
+    <footer class="footer">
+    <div class="container">
+        <div class="footer__copyrite">  
+            All rights Reserved © 2021
+        </div>
+    </div>
+</footer>
+    <div class="overlay">
+    <div class="modal" id="thanks">
+        <div class="modal__close">&times;</div>
+        <div class="modal__subtitle">
+            Спасибо за вашу заявку!
+        </div>
+        <div class="modal__descr">
+            Наш менеджер свяжется с вами в ближайшиее время!
+        </div>
+    </div>
+
+    <div class="modal" id="detail">
+        <div class="modal__close">&times;</div>
+        <div id="body__modal">
+            <div class="modal__subtitle">
+            </div>
+            <div class="modal__descr">
+        </div>
+    </div>
+    </div>
+
+    <div class="more-info-detail modal">
+        <div class="Research">
+            Research is "creative and systematic work undertaken to increase the stock of knowledge".[1] It involves 
+            the collection, organization, and analysis of information to increase understanding of a topic or issue. A 
+            research project may be an expansion on past work in the field. To test the validity of instruments, 
+            procedures, or experiments, research may replicate elements of prior projects or the project as a whole.
+            The primary purposes of basic research (as opposed to applied research) are documentation, discovery, 
+            interpretation, and the research and development (R&D) of methods and systems for the advancement of human 
+            knowledge. Approaches to research depend on epistemologies, which vary considerably both within and between 
+            humanities and sciences. There are several forms of research: scientific, humanities, artistic, economic,
+            [citation needed] social, business, marketing, practitioner research, life, technological, etc. The scientific
+            tudy of research practices is known as meta-research.
+        </div>
+        <div class="Portfolio">
+            Portfolio (from the Italian portafoglio - "portfolio") - a collection (a wide portfolio) of work performed and the 
+            work of a person (company).
+            The term "portfolio" is borrowed through the mediation of English. portfolio in Italian (portafoglio - "portfolio"), 
+            where it is formed from porta ("nose") + foglio ("sheet") [1].
+            The portfolio can be both on paper and electronically. The e-portfolio, in turn, can be stored locally (be accessible only 
+            to a certain group of people) and globally (be available to the whole world - to users
+        </div>
+        <div class="Support">
+            Support (from English and French. Support, from late Lat. Supporto - I support) is a unit designed for fastening, 
+            as well as for manual or automatic movement of a tool, for example, in machine tools.
+            The slide usually consists of a tool holder and slide-type intermediate parts that provide a predetermined direction of movement 
+            of the tool.
+        </div>
+        <div class="Documentation">
+            Requirements documentation is the description of what a particular software does or shall do. It is used throughout development to 
+            communicate how the software functions or how it is intended to operate. It is also used as an agreement or as the foundation for 
+            agreement on what the software will do. Requirements are produced and consumed by everyone involved in the production of software, 
+            including: end users, customers, project managers, sales, marketing, software architects, usability engineers, interaction designers, 
+            developers, and testers.
+        </div>
+        <div class="Development">
+            Development (also real estate development, development; from the English real estate development "improvement, development of 
+            real estate") is an entrepreneurial activity associated with the creation of a real estate object, reconstruction or change of an 
+            existing building or land plot, leading to an increase in their value. [1] In Russian practice, two versions of the term have been 
+            developed: real estate development (by analogy with the English language) and a short version - development, which has the same 
+            meaning.
+        </div>
+        <div class="Design">
+            A design is a plan or specification for the construction of an object or system or for the implementation of an activity or process, 
+            or the result of that plan or specification in the form of a prototype, product or process. The verb to design expresses the process 
+            of developing a design. In some cases, the direct construction of an object without an explicit prior plan (such as in craftwork, some 
+            eering, coding, and graphic design) may also be considered to be a design activity. The design usually has to satisfy certain goals and 
+            constraints, may take into account aesthetic, functional, economic, or socio-political considerations, and is expected to interact with a 
+            certain environment. Major examples of designs include architectural blueprints, engineering drawings, business processes, circuit diagrams, 
+            and sewing patterns.
+        </div>
+    </div>   
+</div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="js/burger.js"></script>
+    <script src="js/scroll.js"></script>
+    <script src="js/slider.js"></script>
+    <script src="js/modal.js"></script>
+    <script src="js/forms.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

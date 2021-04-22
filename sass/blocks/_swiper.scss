@@ -1,0 +1,44 @@
+.swiper-container {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+.swiper-pagination{
+    z-index: 1;
+    left: 1%;
+    bottom: -45%;
+}
+.swiper-pagination-bullet{
+    width: 15px;
+    height: 15px;
+    left:200px;
+    background-color: $main-color; 
+}
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    img {
+        background: cover;
+        max-width: 2000px; 
+        width: 100%;
+        height: 100%;
+    }
+    
+}

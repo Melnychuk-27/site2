@@ -1,0 +1,17 @@
+@mixin title {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    color: #212121;    
+} 
+
+@mixin title-descr {
+    margin-top: 36px;
+    font-size: 15px;
+    font-weight: normal;
+    line-height: 1.47;
+    letter-spacing: 0.75px;
+    text-align: center;
+    color: #212121;  
+} 
+

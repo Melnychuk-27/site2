@@ -1,0 +1,219 @@
+
+
+@media (min-width: 320px) { 
+    .price {
+        padding: 35px 20px 55px;
+        background-color: #f0f1f1;
+        &__title {
+            @include title;
+            font-size: 28px;  
+            &-descr {
+                @include title-descr;
+                margin-top: 20px; 
+            }
+        }
+        &__cards {
+            margin-top: 35px;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: baseline;
+        }
+        &__card {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            margin-top: 31px;
+            padding-bottom: 63px;
+            width: 100%;
+            background-color: #ffffff;
+            &-title {
+                margin-top: 48px;
+                font-size: 25px;
+                font-weight: normal;
+                text-align: center;
+                color: #ffffff;
+            }
+            &-subtitle {
+                margin-top: 25px;
+                font-size: 17px;
+                font-weight: normal;
+                text-align: center;
+                color: #ffffff;
+                &-doll {
+                    sup {
+                        font-size: 25px;
+                        color: #ffffff;
+                    }
+                    font-size: 50px;
+                    font-weight: normal;
+                    color: #ffffff;
+                }
+            }
+        }
+        &__card-top {
+            background: url("../img/plan/card_bg.jpg") center center/cover no-repeat;
+            min-height: 209px;
+        }
+        &__card-body {
+            margin-top: 12px;
+            padding: 0 46px;
+            text-align: center;
+            div {
+                display: none;
+            } 
+            span {
+                display: block;
+                font-size: 17px;
+                font-weight: 300;
+                line-height: 1.29;
+                letter-spacing: 0.85px;
+                text-align: center; 
+                padding: 37px 0 10px;
+                border-bottom:  solid 1px rgba($color: #000000, $alpha: .5);
+            }
+        }
+        &__card-bottom{
+            margin-top: 66px;
+            display: flex;
+            justify-content: center;
+            padding: 0 46px;
+        }
+    }
+}
+
+@media (min-width: 576px) {
+    .price {
+        &__cards {
+            justify-content: center;
+        }
+        &__card {
+            width: 80%;
+        }
+    }
+}
+
+@media (min-width: 768px) {
+    .price {
+        padding: 55px 20px;
+        &__cards {
+            margin-top: 35px;
+            justify-content: center;
+        }
+        &__card {
+            width: calc(50% - 40px);
+            margin: 0 20px;
+            margin-top: 25px;
+        }
+    }
+}
+
+@media (min-width: 991px) {
+    .price {
+        padding: 82px 20px;
+        &__title {
+            @include title; 
+            &-descr {
+            @include title-descr; 
+            }
+        }
+        
+        &__cards {
+            margin-top: 95px;;
+            justify-content: center;
+        }
+        &__card {
+            width: calc(320px - 40px);
+            margin: 0 20px;
+            margin-top: 31px;
+            &:hover {
+                box-shadow: 0px 3px 25px 0 rgba(0, 0, 0, 0.35);
+            }
+        }
+    }
+}
+
+
+
+
+
+// .price {
+//     padding: 53px 20px 56px;
+//     background-color: #f0f1f1;
+
+//     &__wrapper {
+
+//     }
+//     &__title {
+//         @include title; 
+//         &-descr {
+//            @include title-descr; 
+//         }
+//     }
+    
+//     &__cards {
+//         margin-top: 95px;
+//         display: flex;
+//         flex-wrap: wrap;
+//         justify-content: space-between;
+//     }
+//     &__card {
+//         position: relative;
+//         display: flex;
+//         flex-direction: column;
+//         justify-content: center;
+//         margin-top: 31px;
+//         padding-bottom: 63px;
+//         width: 350px;
+//         background-color: #ffffff;
+//         &-title {
+//             margin-top: 48px;
+//             font-size: 25px;
+//             font-weight: normal;
+//             text-align: center;
+//             color: #ffffff;
+//         }
+//         &-subtitle {
+//             margin-top: 25px;
+//             font-size: 17px;
+//             font-weight: normal;
+//             text-align: center;
+//             color: #ffffff;
+//             &-doll {
+//                 sup {
+//                     font-size: 25px;
+//                     color: #ffffff;
+//                 }
+//                 font-size: 50px;
+//                 font-weight: normal;
+//                 color: #ffffff;
+//             }
+//         }
+//         &:hover {
+//             box-shadow: 0px 3px 25px 0 rgba(0, 0, 0, 0.35);
+//         }
+//     }
+//     &__card-top {
+//         background: url("../img/plan/card_bg.jpg") center center/cover no-repeat;
+//         min-height: 209px;
+//     }
+//     &__card-body {
+//         margin-top: 12px;
+//         padding: 0 96px;
+//         text-align: center; 
+//         div {
+//             font-size: 17px;
+//             font-weight: 300;
+//             line-height: 1.29;
+//             letter-spacing: 0.85px;
+//             text-align: center; 
+//             padding: 37px 0 10px;
+//             border-bottom:  solid 1px rgba($color: #000000, $alpha: .5);
+//         }
+//     }
+//     &__card-bottom{
+//         margin-top: 66px;
+//         display: flex;
+//         justify-content: center;
+//         padding: 0 96px;
+//     }
+// }

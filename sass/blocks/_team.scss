@@ -1,0 +1,198 @@
+@media (min-width: 320px) { 
+    .team {
+        padding: 35px 20px;
+        &__title {
+            @include title;
+            font-size: 28px;  
+            &-descr {
+                @include title-descr;
+                margin-top: 20px; 
+            }
+        }
+        &__cards {
+            margin-top: 35px;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        &__img {
+            img {
+                width: 100%;
+                border-radius: 10px;
+            }
+        }
+        &__card {
+            margin-top: 25px;
+            width: 100%;
+            &:first-child {
+                margin-top: 0px;
+            }
+            &-title {
+                margin-top: 10px;
+                font-size: 20px;
+                font-weight: 600;
+                line-height: 1.1;
+                letter-spacing: 1px;
+                text-align: center;
+            }
+            &-descr {
+                margin-top: 12px;
+                font-size: 15px;
+                font-weight: normal;
+                line-height: 1.47;
+                letter-spacing: 0.75px;
+                text-align: center;
+            }
+            &-icons {
+                margin-top: 15px;
+                display: flex;
+                justify-content: center;
+                
+            }
+            &-icon {
+                display: flex;
+                justify-content: center;
+                width: 50px;
+                height: 50px;
+                padding: 12px;
+                border-radius: 10px;
+                background-color: #f0f1f1;
+                margin-right: 22px;
+                &:last-child {
+                    margin-right: 0;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 576px) {
+    .team {
+        padding: 35px 20px;
+        &__cards {
+            justify-content: center;
+        }
+        &__card {
+            width: 80%;
+            margin-top: 25px;
+            &:first-child {
+                margin-top: 0px;
+            }
+        }
+    }
+}
+
+@media (min-width: 768px) {
+    .team {
+        padding: 55px 20px;
+        &__cards {
+            justify-content: center;
+        }
+        &__card {
+            width: calc(50% - 40px);
+            margin: 25px 20px 0;
+            &:first-child {
+                margin-top: 25px;
+            }
+        }
+    }
+}
+
+@media (min-width: 991px) {
+    .team {
+        padding: 82px 20px; //
+        &__title {
+            @include title; 
+            &-descr {
+            @include title-descr; 
+            }
+        }
+        &__cards {
+            margin-top: 85px; //
+            justify-content: center;
+        }
+        &__img {
+            img {
+                border-radius: 10px;
+            }
+        }
+        &__card {
+            width: calc(300px - 40px);
+            
+            &-title {
+                margin-top: 38px;
+            }
+            &-icons {
+                margin-top: 33px;
+            }
+            &-icon {
+                &:hover {
+                    cursor: pointer;
+                    background-color: #3949ab;
+                }
+            }
+        }
+    }
+}   
+
+
+
+// .team {
+//     padding: 122px 20px 124px;
+//     &__title {
+//         @include title; 
+//         &-descr {
+//            @include title-descr; 
+//         }
+//     }
+//     &__cards {
+//         margin-top: 127px;
+//         display: flex;
+//         flex-wrap: wrap;
+//         justify-content: space-between;
+//     }
+//     &__img {
+//         img {
+//             border-radius: 10px;
+//         }
+//     }
+//     &__card {
+
+//         &-title {
+//             margin-top: 38px;
+//             font-size: 20px;
+//             font-weight: 600;
+//             line-height: 1.1;
+//             letter-spacing: 1px;
+//             text-align: center;
+//         }
+//         &-descr {
+//             margin-top: 12px;
+//             font-size: 15px;
+//             font-weight: normal;
+//             line-height: 1.47;
+//             letter-spacing: 0.75px;
+//             text-align: center;
+//         }
+//         &-icons {
+//             margin-top: 33px;
+//             display: flex;
+//             justify-content: center;
+//         }
+//         &-icon {
+//             display: flex;
+//             justify-content: center;
+//             width: 50px;
+//             height: 50px;
+//             padding: 12px;
+//             border-radius: 10px;
+//             background-color: #f0f1f1;
+//             margin-right: 22px;
+//             &:last-child {
+//                 margin-right: 0;
+//             }
+//             &:hover {
+//                 background-color: #3949ab;
+//             }
+//         }
+//     }
+// }
